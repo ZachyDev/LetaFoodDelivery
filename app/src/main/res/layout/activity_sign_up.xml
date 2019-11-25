@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2643E2"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:id="@+id/et_UserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="User Name"
+        android:layout_marginTop="260dp"
+        android:inputType="number"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        />
+
+    <EditText
+        android:id="@+id/signUp_et_phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Phone Number"
+        android:layout_below="@id/et_UserName"
+        android:inputType="number"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        />
+
+
+    <EditText
+        android:id="@+id/et_signup_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signUp_et_phoneNumber"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Password"
+        android:layout_marginTop="6dp"
+        android:inputType="number"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:id="@+id/btn_SignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_signup_password"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:padding="17dp"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:text="Sign Up"/>
+
+</RelativeLayout>
