@@ -3,35 +3,35 @@
 3    package="com.owen.letafooddelivery.test" >
 4
 5    <uses-sdk
-5-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1997982126252445885.xml:5:5-74
-6        android:minSdkVersion="15"
-6-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1997982126252445885.xml:5:15-41
+5-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7792987040640047381.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7792987040640047381.xml:5:15-41
 7        android:targetSdkVersion="29" />
-7-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1997982126252445885.xml:5:42-71
+7-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7792987040640047381.xml:5:42-71
 8
 9    <instrumentation
-9-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1997982126252445885.xml:11:5-15:75
+9-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7792987040640047381.xml:11:5-15:75
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1997982126252445885.xml:11:22-76
+10-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7792987040640047381.xml:11:22-76
 11        android:functionalTest="false"
-11-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1997982126252445885.xml:14:22-52
+11-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7792987040640047381.xml:14:22-52
 12        android:handleProfiling="false"
-12-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1997982126252445885.xml:13:22-53
+12-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7792987040640047381.xml:13:22-53
 13        android:label="Tests for com.owen.letafooddelivery"
-13-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1997982126252445885.xml:15:22-73
+13-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7792987040640047381.xml:15:22-73
 14        android:targetPackage="com.owen.letafooddelivery" />
-14-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1997982126252445885.xml:12:22-71
+14-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7792987040640047381.xml:12:22-71
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\45cb15c04ee6c8ab00b0d82c35bc6fb6\core-1.2.0\AndroidManifest.xml:24:5-72
 16-->[androidx.test:core:1.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\45cb15c04ee6c8ab00b0d82c35bc6fb6\core-1.2.0\AndroidManifest.xml:24:22-69
 17
 18    <application android:debuggable="true" >
-18-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1997982126252445885.xml:7:5-9:19
-18-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1997982126252445885.xml:7:18-43
+18-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7792987040640047381.xml:7:5-9:19
+18-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7792987040640047381.xml:7:18-43
 19        <uses-library android:name="android.test.runner" />
-19-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1997982126252445885.xml:8:9-60
-19-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1997982126252445885.xml:8:23-57
+19-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7792987040640047381.xml:8:9-60
+19-->D:\Code\Android Studio\LetaFoodDelivery\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger7792987040640047381.xml:8:23-57
 20
 21        <activity
 21-->[androidx.test:core:1.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\45cb15c04ee6c8ab00b0d82c35bc6fb6\core-1.2.0\AndroidManifest.xml:27:9-33:20
