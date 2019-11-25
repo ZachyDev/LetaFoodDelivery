@@ -3,4 +3,8 @@
     <color name="colorPrimary">#BF007A</color>
     <color name="colorPrimaryDark">#BF007A</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="overalBackground">#1D242324</color>
+    <color name="overalActionBar">#1DBFB0C2</color>
+
 </resources>
