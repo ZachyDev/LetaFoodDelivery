@@ -13,6 +13,8 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import androidx.drawerlayout.widget.DrawerLayout;
 
@@ -20,8 +22,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
+import android.widget.TextView;
 
 public class HomeActivity extends AppCompatActivity {
+
+    FirebaseDatabase database;
+    DatabaseReference category;
+    TextView tvFullName;
 
     private AppBarConfiguration mAppBarConfiguration;
 
@@ -29,8 +36,14 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
         Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setTitle("Menu");
         setSupportActionBar(toolbar);
+
+        database = FirebaseDatabase.getInstance();
+        category=database.getReference("Category");
+
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override

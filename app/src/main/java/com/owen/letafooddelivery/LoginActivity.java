@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,6 +17,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.owen.letafooddelivery.Common.Common;
 import com.owen.letafooddelivery.Model.User;
 
 public class LoginActivity extends AppCompatActivity {
@@ -56,8 +58,14 @@ public class LoginActivity extends AppCompatActivity {
                         if (dataSnapshot.child(etPhone.getText().toString()).exists()) {
                             mdialog.dismiss();
                             User user = dataSnapshot.child(etPhone.getText().toString()).getValue(User.class);
-                            if (user.getPassword().equals(etPassword.getText().toString())) {
-                                Toast.makeText(LoginActivity.this, "Signed in successsfully", Toast.LENGTH_LONG).show();
+                            if (user.getPassword().equals(etPassword.getText().toString()))
+                            {
+                                Intent homeIntent = new Intent(LoginActivity.this, HomeActivity.class);
+
+                                Common.currentUser = user;
+
+                                startActivity(homeIntent);
+                                finish();
                             } else {
                                 Toast.makeText(LoginActivity.this, "Signed failed !!!", Toast.LENGTH_LONG).show();
                             }
