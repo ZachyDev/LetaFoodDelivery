@@ -1111,6 +1111,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_access_time_black_24dp
 drawable ic_menu_camera
 drawable ic_menu_gallery
 drawable ic_menu_manage
@@ -1303,6 +1304,7 @@ id multiply
 id nav_controller_view_tag
 id nav_gallery
 id nav_home
+id nav_host_fragment
 id nav_send
 id nav_share
 id nav_slideshow
@@ -1328,7 +1330,6 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
-id recycler_view_menu
 id right
 id right_icon
 id right_side

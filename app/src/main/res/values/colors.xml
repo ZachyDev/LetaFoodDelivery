@@ -4,7 +4,10 @@
     <color name="colorPrimaryDark">#BF007A</color>
     <color name="colorAccent">#D81B60</color>
 
-    <color name="overalBackground">#1D242324</color>
-    <color name="overalActionBar">#1DBFB0C2</color>
+    <color name="overlayBackground">#7f33639</color>
+    <color name="overalActionBar">#OeOdoe</color>
+
+    <color name="btnSignUp">#39796b</color>
+    <color name="btnSignUpActive">#A9d440</color>
 
 </resources>
