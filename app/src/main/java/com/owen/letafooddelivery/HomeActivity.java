@@ -2,11 +2,13 @@ package com.owen.letafooddelivery;
 
 import android.os.Bundle;
 
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
 import android.view.View;
 
+import androidx.annotation.NonNull;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -16,14 +18,18 @@ import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.owen.letafooddelivery.Common.Common;
+import com.owen.letafooddelivery.Model.Category;
+import com.owen.letafooddelivery.ViewHolder.MenuViewHolder;
 
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.Menu;
+import android.view.ViewGroup;
 import android.widget.TextView;
 
 public class HomeActivity extends AppCompatActivity {
@@ -78,7 +84,33 @@ public class HomeActivity extends AppCompatActivity {
         tvFullName = findViewById(R.id.tvfullnames);
         tvFullName.setText(Common.currentUser.getName());
 
+
+        recyclerView_menu = findViewById(R.id.recylerview_menu);
+        recyclerView_menu.setHasFixedSize(true);
+
+        layoutManager = new LinearLayoutManager(this);
+
+        recyclerView_menu.setLayoutManager(layoutManager);
+        
+//        loadMenu();
+
     }
+
+//    private void loadMenu() {
+//
+//       FirebaseRecyclerAdapter<Category, MenuViewHolder> adapter = new FirebaseRecyclerAdapter<Category, MenuViewHolder>(Category.class,R.layout.menu_item, MenuViewHolder.class,category) {
+//           @Override
+//           protected void onBindViewHolder(@NonNull MenuViewHolder holder, int position, @NonNull Category model) {
+//
+//           }
+//
+//           @NonNull
+//           @Override
+//           public MenuViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+//               return null;
+//           }
+//       };
+//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
