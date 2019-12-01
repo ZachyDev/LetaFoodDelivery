@@ -22,7 +22,7 @@ MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\Owe\.gra
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\596060fa59581d05bfda6f1380aa8ace\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\7a28433bdc29d34885b42f1852e24e24\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\ebce7bd87dbf91b5eb5b1e11d465d689\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\d9825d76f6bbee29e3578706a3ba71a2\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\ef2b9acfed30db7d42005e1e08b46c79\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\506ff032f2e3a2422899c5a2a3d9de51\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -107,8 +107,8 @@ MERGED from [com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\ca
 MERGED from [com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:12:5-24:19
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\596060fa59581d05bfda6f1380aa8ace\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\596060fa59581d05bfda6f1380aa8ace\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\7a28433bdc29d34885b42f1852e24e24\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\7a28433bdc29d34885b42f1852e24e24\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\ebce7bd87dbf91b5eb5b1e11d465d689\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\ebce7bd87dbf91b5eb5b1e11d465d689\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.1.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\478b79604eaaf934858ce3739dce1708\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\478b79604eaaf934858ce3739dce1708\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\6352da2278f4887fa4506d4f94107bca\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
@@ -199,8 +199,8 @@ MERGED from [com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\ca
 MERGED from [com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\596060fa59581d05bfda6f1380aa8ace\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\596060fa59581d05bfda6f1380aa8ace\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\7a28433bdc29d34885b42f1852e24e24\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\7a28433bdc29d34885b42f1852e24e24\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\ebce7bd87dbf91b5eb5b1e11d465d689\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\ebce7bd87dbf91b5eb5b1e11d465d689\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\d9825d76f6bbee29e3578706a3ba71a2\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\d9825d76f6bbee29e3578706a3ba71a2\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\ef2b9acfed30db7d42005e1e08b46c79\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -358,11 +358,11 @@ ADDED from [com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\cac
 	android:name
 		ADDED from [com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\7a28433bdc29d34885b42f1852e24e24\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\ebce7bd87dbf91b5eb5b1e11d465d689\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\7a28433bdc29d34885b42f1852e24e24\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\ebce7bd87dbf91b5eb5b1e11d465d689\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\7a28433bdc29d34885b42f1852e24e24\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\ebce7bd87dbf91b5eb5b1e11d465d689\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9c91dc75531254eaf4317c8148932eda\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
 	android:authorities

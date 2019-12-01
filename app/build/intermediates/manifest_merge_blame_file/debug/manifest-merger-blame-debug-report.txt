@@ -35,119 +35,120 @@
 23-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:11:9-54
 24        android:supportsRtl="true"
 24-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:12:9-35
-25        android:theme="@style/AppTheme" >
-25-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:13:9-40
-26        <activity
-26-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:14:9-17:68
-27            android:name="com.owen.letafooddelivery.HomeActivity"
-27-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:15:13-41
-28            android:label="@string/title_activity_home"
-28-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:16:13-56
-29            android:theme="@style/AppTheme.NoActionBar" />
-29-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:17:13-56
-30        <activity android:name="com.owen.letafooddelivery.SignUpActivity" />
-30-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:18:9-52
-30-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:18:19-49
-31        <activity android:name="com.owen.letafooddelivery.LoginActivity" />
-31-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:19:9-51
-31-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:19:19-48
-32        <activity android:name="com.owen.letafooddelivery.MainActivity" >
-32-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:20:9-26:20
-32-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:20:19-47
-33            <intent-filter>
-33-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:21:13-25:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:22:17-69
-34-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:22:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:24:17-77
-36-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:24:27-74
-37            </intent-filter>
-38        </activity>
-39        <activity
-39-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
-40            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-40-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
-41            android:excludeFromRecents="true"
-41-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
-42            android:exported="true"
-42-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
-43            android:launchMode="singleTask"
-43-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
-44            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-44-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
-45            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-45-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
-46
-47        <service
-47-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
-48            android:name="com.google.firebase.components.ComponentDiscoveryService"
-48-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
-49            android:directBootAware="true"
-49-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
-50            android:exported="false" >
-50-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
-51            <meta-data
-51-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
-52                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-52-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
-53                android:value="com.google.firebase.components.ComponentRegistrar" />
-53-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
-54            <meta-data
-54-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\7c1b7712293eca3efa95a3298abb9169\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
-55                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-55-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\7c1b7712293eca3efa95a3298abb9169\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
-56                android:value="com.google.firebase.components.ComponentRegistrar" />
-56-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\7c1b7712293eca3efa95a3298abb9169\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
-57        </service>
-58
-59        <provider
-59-->[com.squareup.picasso:picasso:2.71828] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9a23ced7d18c6ace353884e53467be1a\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-60            android:name="com.squareup.picasso.PicassoProvider"
-60-->[com.squareup.picasso:picasso:2.71828] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9a23ced7d18c6ace353884e53467be1a\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-61            android:authorities="com.owen.letafooddelivery.com.squareup.picasso"
-61-->[com.squareup.picasso:picasso:2.71828] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9a23ced7d18c6ace353884e53467be1a\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-62            android:exported="false" />
-62-->[com.squareup.picasso:picasso:2.71828] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9a23ced7d18c6ace353884e53467be1a\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-63
-64        <activity
-64-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-65            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-65-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-66            android:exported="false"
-66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-68
-69        <provider
-69-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
-70            android:name="com.google.firebase.provider.FirebaseInitProvider"
-70-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
-71            android:authorities="com.owen.letafooddelivery.firebaseinitprovider"
-71-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
-72            android:exported="false"
-72-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
-73            android:initOrder="100" />
-73-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
-74
-75        <meta-data
-75-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\7a28433bdc29d34885b42f1852e24e24\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-76            android:name="com.google.android.gms.version"
-76-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\7a28433bdc29d34885b42f1852e24e24\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-77            android:value="@integer/google_play_services_version" />
-77-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\7a28433bdc29d34885b42f1852e24e24\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-78
-79        <provider
-79-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9c91dc75531254eaf4317c8148932eda\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-80            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-80-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9c91dc75531254eaf4317c8148932eda\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-81            android:authorities="com.owen.letafooddelivery.lifecycle-process"
-81-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9c91dc75531254eaf4317c8148932eda\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-82            android:exported="false"
-82-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9c91dc75531254eaf4317c8148932eda\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-83            android:multiprocess="true" />
-83-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9c91dc75531254eaf4317c8148932eda\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-84    </application>
-85
-86</manifest>
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:13:9-40
+27        <activity
+27-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:14:9-17:68
+28            android:name="com.owen.letafooddelivery.HomeActivity"
+28-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:15:13-41
+29            android:label="@string/title_activity_home"
+29-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:16:13-56
+30            android:theme="@style/AppTheme.NoActionBar" />
+30-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:17:13-56
+31        <activity android:name="com.owen.letafooddelivery.SignUpActivity" />
+31-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:18:9-52
+31-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:18:19-49
+32        <activity android:name="com.owen.letafooddelivery.LoginActivity" />
+32-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:19:9-51
+32-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:19:19-48
+33        <activity android:name="com.owen.letafooddelivery.MainActivity" >
+33-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:20:9-26:20
+33-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:20:19-47
+34            <intent-filter>
+34-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:21:13-25:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:22:17-69
+35-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:22:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:24:17-77
+37-->D:\Code\Android Studio\LetaFoodDelivery\app\src\main\AndroidManifest.xml:24:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+41            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+41-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+42            android:excludeFromRecents="true"
+42-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+43            android:exported="true"
+43-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+44            android:launchMode="singleTask"
+44-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+45            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+45-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+46            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+46-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+47
+48        <service
+48-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+49            android:name="com.google.firebase.components.ComponentDiscoveryService"
+49-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+50            android:directBootAware="true"
+50-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+51            android:exported="false" >
+51-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+52            <meta-data
+52-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+53                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+53-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\b995fe5e6560b00622e7b4f6bf4344cf\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+55            <meta-data
+55-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\7c1b7712293eca3efa95a3298abb9169\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+56                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+56-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\7c1b7712293eca3efa95a3298abb9169\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\7c1b7712293eca3efa95a3298abb9169\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+58        </service>
+59
+60        <provider
+60-->[com.squareup.picasso:picasso:2.71828] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9a23ced7d18c6ace353884e53467be1a\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+61            android:name="com.squareup.picasso.PicassoProvider"
+61-->[com.squareup.picasso:picasso:2.71828] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9a23ced7d18c6ace353884e53467be1a\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+62            android:authorities="com.owen.letafooddelivery.com.squareup.picasso"
+62-->[com.squareup.picasso:picasso:2.71828] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9a23ced7d18c6ace353884e53467be1a\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+63            android:exported="false" />
+63-->[com.squareup.picasso:picasso:2.71828] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9a23ced7d18c6ace353884e53467be1a\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+64
+65        <activity
+65-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+69
+70        <provider
+70-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+71            android:name="com.google.firebase.provider.FirebaseInitProvider"
+71-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+72            android:authorities="com.owen.letafooddelivery.firebaseinitprovider"
+72-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+73            android:exported="false"
+73-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+74            android:initOrder="100" />
+74-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+75
+76        <meta-data
+76-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\ebce7bd87dbf91b5eb5b1e11d465d689\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+77            android:name="com.google.android.gms.version"
+77-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\ebce7bd87dbf91b5eb5b1e11d465d689\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+78            android:value="@integer/google_play_services_version" />
+78-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\ebce7bd87dbf91b5eb5b1e11d465d689\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+79
+80        <provider
+80-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9c91dc75531254eaf4317c8148932eda\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+81            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9c91dc75531254eaf4317c8148932eda\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+82            android:authorities="com.owen.letafooddelivery.lifecycle-process"
+82-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9c91dc75531254eaf4317c8148932eda\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+83            android:exported="false"
+83-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9c91dc75531254eaf4317c8148932eda\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+84            android:multiprocess="true" />
+84-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Owe\.gradle\caches\transforms-2\files-2.1\9c91dc75531254eaf4317c8148932eda\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+85    </application>
+86
+87</manifest>

@@ -92,25 +92,25 @@ public class HomeActivity extends AppCompatActivity {
 
         recyclerView_menu.setLayoutManager(layoutManager);
         
-//        loadMenu();
+        loadMenu();
 
     }
 
-//    private void loadMenu() {
-//
-//       FirebaseRecyclerAdapter<Category, MenuViewHolder> adapter = new FirebaseRecyclerAdapter<Category, MenuViewHolder>(Category.class,R.layout.menu_item, MenuViewHolder.class,category) {
-//           @Override
-//           protected void onBindViewHolder(@NonNull MenuViewHolder holder, int position, @NonNull Category model) {
-//
-//           }
-//
-//           @NonNull
-//           @Override
-//           public MenuViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-//               return null;
-//           }
-//       };
-//    }
+    private void loadMenu() {
+
+       FirebaseRecyclerAdapter<Category, MenuViewHolder> adapter = new FirebaseRecyclerAdapter<Category, MenuViewHolder>(Category.class,R.layout.menu_item, MenuViewHolder.class,category) {
+           @Override
+           protected void onBindViewHolder(@NonNull MenuViewHolder holder, int position, @NonNull Category model) {
+
+           }
+
+           @NonNull
+           @Override
+           public MenuViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+               return null;
+           }
+       };
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -121,7 +121,7 @@ public class HomeActivity extends AppCompatActivity {
 
     @Override
     public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
+        NavController navController = Navigation.findNavController(this, R.id.nav_view);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
